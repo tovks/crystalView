@@ -1,0 +1,14 @@
+<%- include('partials/head', { title: 'Services' }) %>
+<section class="container">
+  <h1>Our Services</h1>
+  <div class="grid-3">
+    <% services.items.forEach(s => { %>
+      <div class="card service-card">
+        <div class="service-icon"><%= s.icon %></div>
+        <h3><%= s.title %></h3>
+        <p><%= s.text %></p>
+      </div>
+    <% }) %>
+  </div>
+</section>
+<%- include('partials/footer') %>

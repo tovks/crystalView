@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "icon": "\ud83e\udded",
+      "title": "Consultation",
+      "text": "Free site evaluation and solutioning for your space."
+    },
+    {
+      "icon": "\ud83d\udcd0",
+      "title": "Design & Estimation",
+      "text": "Optimized configurations with transparent pricing."
+    },
+    {
+      "icon": "\ud83c\udfd7\ufe0f",
+      "title": "Fabrication",
+      "text": "Precision manufacturing with quality checks."
+    },
+    {
+      "icon": "\ud83d\udee0\ufe0f",
+      "title": "Installation",
+      "text": "Trained teams with clean & safe site practices."
+    },
+    {
+      "icon": "\ud83e\uddf9",
+      "title": "After-sales Support",
+      "text": "Warranty-backed service and quick resolutions."
+    }
+  ]
+}

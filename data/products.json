@@ -1,0 +1,117 @@
+{
+  "categories": [
+    {
+      "key": "windows",
+      "name": "UPVC Sliding Windows",
+      "text": "Sliding windows can have doors which can be slidable in either directions."      
+    },
+     {
+      "key": "casement_windows",
+      "name": "uPVC Casement Windows"
+    },
+      {
+      "key": "tilt_windows",
+      "name": "uPVC Tilt& Turn Windows"
+    },
+  {
+      "key": "custom_windows",
+      "name": "Customized uPVC Windows"
+    },
+    
+    {
+      "key": "sliding_doors",
+      "name": "uPVC Sliding Doors"
+    },
+      {
+      "key": "folding_doors",
+      "name": "uPVC Sliding & Folding Doors"
+    },
+
+    {
+      "key": "arch_doors",
+      "name": "uPVC Arch Doors"
+    },
+    
+    {
+      "key": "aluminium",
+      "name": "Aluminium Systems"
+    },
+    {
+      "key": "Combinations_Doors_Windows",
+      "name": "Combinations Doors & Windows"
+    }
+  ],
+  "items": [
+    {
+      "slug": "casement-window",
+      "title": "Casement Window",
+      "category": "windows",
+      "summary": "Classic outward opening with superb sealing and energy efficiency.",
+      "features": [
+        "Multi-point locking",
+        "Double glazing ready",
+        "Excellent sound insulation"
+      ]
+    },
+    {
+      "slug": "sliding-window",
+      "title": "Sliding Window",
+      "category": "windows",
+      "summary": "Space-saving sliders with smooth rollers and slim frames.",
+      "features": [
+        "2/3/4 track options",
+        "Mosquito mesh compatible",
+        "Low maintenance"
+      ],
+      "hero": "/images/placeholder-window.svg"
+    },
+    {
+      "slug": "tilt-turn-window",
+      "title": "Tilt & Turn Window",
+      "category": "windows",
+      "summary": "Dual opening for ventilation and easy cleaning with tight sealing.",
+      "features": [
+        "Dual modes",
+        "Superior sealing",
+        "Child-safe operation"
+      ],
+      "hero": "/images/placeholder-window.svg"
+    },
+    {
+      "slug": "sliding-door",
+      "title": "Sliding Door",
+      "category": "doors",
+      "summary": "Wide openings, effortless glide, great views for balconies & patios.",
+      "features": [
+        "Toughened glass",
+        "High wind-load performance",
+        "Customizable panels"
+      ],
+      "hero": "/images/placeholder-door.svg"
+    },
+    {
+      "slug": "french-door",
+      "title": "French Door",
+      "category": "doors",
+      "summary": "Elegant dual-leaf door for a premium entrance experience.",
+      "features": [
+        "Multi-chamber profile",
+        "Superior weather sealing",
+        "Custom hardware"
+      ],
+      "hero": "/images/placeholder-door.svg"
+    },
+    {
+      "slug": "aluminium-slide-fold",
+      "title": "Aluminium Slide & Fold",
+      "category": "aluminium",
+      "summary": "Modern folding system to open up entire walls.",
+      "features": [
+        "Thermally broken options",
+        "Sleek sightlines",
+        "Durable powder coating"
+      ],
+      "hero": "/images/placeholder-aluminium.svg"
+    }
+  ]
+}

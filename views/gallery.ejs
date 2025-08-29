@@ -1,0 +1,13 @@
+<%- include('partials/head', { title: 'Gallery' }) %>
+<section class="container">
+  <h1>Gallery</h1>
+  <div class="grid-3">
+    <% for (let i=0;i<6;i++){ %>
+      <div class="card img-card">
+        <img src="/images/placeholder-gallery.svg" alt="Project image">
+        <p>Project <%= i+1 %></p>
+      </div>
+    <% } %>
+  </div>
+</section>
+<%- include('partials/footer') %>

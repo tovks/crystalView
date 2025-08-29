@@ -1,0 +1,20 @@
+<%- include('partials/head', { title: 'Contact' }) %>
+<section class="container">
+  <h1>Contact Us</h1>
+  <% if (sent) { %>
+    <div class="notice success">Thanks! We received your message and will reach out shortly.</div>
+  <% } %>
+  <form method="POST" action="/contact" class="form">
+    <div class="grid-2">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+    </div>
+    <div class="grid-2">
+      <input type="tel" name="phone" placeholder="Phone" />
+      <input type="text" name="city" placeholder="City" />
+    </div>
+    <textarea name="message" rows="5" placeholder="Tell us about your project..."></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+<%- include('partials/footer') %>

@@ -1,0 +1,30 @@
+<%- include('partials/head', { title: 'Products' }) %>
+<section class="container">
+  <h1>Products</h1>
+  <div class="filters">
+    <button class="btn small" data-filter="all">All</button>
+    <% products.categories.forEach(c => { %>
+      <button class="btn small" data-filter="<%= c.key %>"><%= c.name %></button>
+    <% }) %>
+  </div>
+  <div class="grid-3" id="productGrid">
+    <% products.items.forEach(p => { %>
+      <a class="product-card" data-cat="<%= p.category %>" href="/products/<%= p.slug %>">
+        <img src="<%= p.hero %>" alt="<%= p.title %>"/>
+        <h4><%= p.title %></h4>
+        <p><%= p.summary %></p>
+      </a>
+    <% }) %>
+  </div>
+</section>
+<script>
+  const buttons = document.querySelectorAll('.filters .btn');
+  const cards = document.querySelectorAll('#productGrid .product-card');
+  buttons.forEach(b=>b.addEventListener('click', () => {
+    const cat = b.getAttribute('data-filter');
+    cards.forEach(c => {
+      c.style.display = (cat === 'all' || c.dataset.cat === cat) ? '' : 'none';
+    });
+  }));
+</script>
+<%- include('partials/footer') %>
